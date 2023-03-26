@@ -1,0 +1,4 @@
+*.exe binary
+*.obj binary
+*.pdb binary
+*.ilk binary

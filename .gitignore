@@ -1,0 +1,23 @@
+# 忽略Visual Studio生成的文件夹
+/bin/
+/obj/
+
+# 忽略Visual Studio生成的文件
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.obj
+*.ncb
+*.suo
+*.sdf
+*.ipch
+*.aps
+*.lib
+*.exp
+*.idb
+*.manifest
+
+
+# vscode files
+*.vscode
