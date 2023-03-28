@@ -1,20 +1,24 @@
 {
     "configurations": [
         {
-            "name": "Win32",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
+            "name": "MinGW",
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
+            "compilerPath": "E:/MinGW/bin/g++.exe",
             "windowsSdkVersion": "10.0.22000.0",
-            "compilerPath": "E:/MinGW/bin/gcc.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-gcc-x86"
+            "intelliSenseMode": "gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "E:/MinGW/lib/gcc/mingw32/9.2.0/include",
+                "E:/MinGW/lib/gcc/mingw32/9.2.0/include/c++",
+                "E:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32",
+                "E:/MinGW/include"
+            ]
         }
     ],
     "version": 4
