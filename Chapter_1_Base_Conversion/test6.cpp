@@ -1,4 +1,4 @@
-// 1.2 购物单（2017年试题A）
+// 购物单（2017年试题A）
 #include <iostream>
 using namespace std;
 
