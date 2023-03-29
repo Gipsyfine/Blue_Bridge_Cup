@@ -48,7 +48,7 @@ void check(int y,int m,int d)
 
 int main()
 {
-    int a,b,c,e,f,g,j,k;
+    int a,b,c,e,f,g,j,k,m;
     int d[3];
     i = 0;
     scanf("%d/%d/%d",&a,&b,&c);
@@ -60,12 +60,26 @@ int main()
     {
         d[j] = data[j][0] * 10000 + data[j][1] * 100 + data[j][2]; // 
     }
-    qsort(d,i); // 从小到大排序
-    for(k=0;k<i;k++)
+
+    // 数组排序:冒泡排序
+    for(j=0;j<i;j++)
     {
-        e = d[k] / 10000;
-        f = (d[k]/100)%100;
-        g = d[k]%100;
+        for(k=j+1;k<i;k++) 
+        {
+            if(d[j]>d[k])
+            {
+                int temp = d[j];
+                d[j] = d[k];
+                d[k] = temp;
+            }
+        }
+    }
+    
+    for(m=0;m<i;m++)
+    {
+        e = d[m] / 10000;
+        f = (d[m]/100)%100;
+        g = d[m]%100;
         printf("%d-%02d-%02d\n",e,f,g);
     }
 
