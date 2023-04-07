@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    cout << 256 * 1024 * 1024 * 8 / 32 << endl;
+    cout << (long long int)256 * 1024 * 1024 * 8 / 32 << endl;
     return 0;
 }
 

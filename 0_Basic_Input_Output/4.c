@@ -4,7 +4,7 @@ int main()
     int n;
     int temp,sum;  
     
-    while (scanf("%d",&n) && n)
+    while (scanf("%d",&n) && n) // 输入值且值不为零
     {
         sum = 0;
         while(n--){

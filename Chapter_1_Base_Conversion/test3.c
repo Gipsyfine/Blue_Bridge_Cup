@@ -11,7 +11,7 @@ void decimal_to_binary(int decimal, char *binary)
         binary[i++] = (decimal % 2) + '0';
         decimal /= 2;
     }
-    binary[i] = '\0';
+    binary[i] = '\0'; // 数组以'\0'结尾
  
     //  翻转字符数组
     //int len = strlen(binary);

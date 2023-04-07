@@ -5,6 +5,7 @@ int main()
     char ch[26];
     char ans[5];
     int index=0,n=2019; // n是年号
+    
     for (int i=0;i<26;i++)
     {
         ch[i]='A'+i;
